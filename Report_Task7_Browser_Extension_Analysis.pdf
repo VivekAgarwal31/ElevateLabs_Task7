@@ -1,0 +1,112 @@
+## Findings
+
+====================================================
+
+All installed browser extensions were thoroughly reviewed for potential **security and privacy risks**, **excessive permissions**, and **publisher credibility**. Each extension was analyzed for its purpose, permissions, and overall trust level, followed by specific actions and recommendations.
+
+---
+
+### Reviewed Extensions:
+
+---
+
+1. **Always Active Window – Always Visible**
+
+   * **Publisher:** Unknown / Third-party
+   * **Permissions:** Spoofs browser visibility, controls window states
+   * **Finding:** Simulates window activity; unnecessary for normal use. Could impact performance.
+   * **Recommendation:** **Moderate risk. Remove unless absolutely required.**
+
+2. **Burp Suite Navigation Recorder**
+
+   * **Publisher:** PortSwigger
+   * **Permissions:** Record user actions for security scanning
+   * **Finding:** Legitimate tool used for web penetration testing.
+   * **Recommendation:** **Low risk. Safe to keep if actively used for testing.**
+
+3. **CGPA Calculator**
+
+   * **Publisher:** Unknown
+   * **Permissions:** Access to storage and some website data
+   * **Finding:** Educational tool with unclear source; not essential.
+   * **Recommendation:** **Moderate risk. Remove unless verified from official store.**
+
+
+4. **Dark Mode – Night Eye**
+
+   * **Publisher:** Night Eye
+   * **Permissions:** Modify web appearance
+   * **Finding:** Legitimate extension; improves readability and user comfort.
+   * **Recommendation:** **Low risk. Safe to keep.**
+
+5. **Enable Copy Anywhere**
+
+   * **Publisher:** Unknown / Third-party
+   * **Permissions:** Read and modify all web content
+   * **Finding:** Overrides website restrictions; injects scripts. Known for potential abuse.
+   * **Recommendation:** **HIGH RISK. Remove immediately.**
+
+6. **EPUBReader**
+
+   * **Publisher:** EPUBReader Team
+   * **Permissions:** Access local files only
+   * **Finding:** Legitimate offline EPUB reader.
+   * **Recommendation:** **Low risk. Safe to keep.**
+
+7. **Focus To-Do: Pomodoro Timer & To-Do List**
+
+   * **Publisher:** Focus To-Do
+   * **Permissions:** Notifications, background operation
+   * **Finding:** Productivity app; minor data permissions.
+   * **Recommendation:** **Medium risk. Safe to keep or disable if unused.**
+
+8. **Google Docs Offline**
+
+   * **Publisher:** Google
+   * **Permissions:** Access to Docs, Sheets, Slides offline
+   * **Finding:** Official and secure; essential for offline productivity.
+   * **Recommendation:** **Low risk. Safe to keep.**
+
+9. **Google Scholar PDF Reader**
+
+    * **Publisher:** Google
+    * **Permissions:** Access to PDFs and citations
+    * **Finding:** Trusted educational tool.
+    * **Recommendation:** **Low risk. Safe to keep.**
+
+10. **SEOquake**
+
+    * **Publisher:** SEMrush
+    * **Permissions:** Access visited website data
+    * **Finding:** Legitimate SEO tool; requires extended permissions.
+    * **Recommendation:** **Medium risk. Keep if required for analytics.**
+
+11. **uBlock Origin Lite**
+
+    * **Publisher:** Open-source (Raymond Hill)
+    * **Permissions:** Block ads and trackers
+    * **Finding:** Trusted, open-source privacy tool.
+    * **Recommendation:** **Low risk. Safe to keep.**
+
+---
+
+### Actions Taken:
+
+---
+
+* Removed **Enable Copy Anywhere**, and **Always Active Window** following risk review.
+* Verified legitimacy and reviews for all other extensions.
+* Disabled non-essential productivity tools to improve performance.
+* Conducted reputation checks and permission audits for every extension.
+
+---
+
+### Key Learnings:
+
+---
+
+* Extensions with **excessive permissions** or **unknown developers** pose privacy and data risks.
+* Even trusted extensions can become harmful after **ownership changes** or updates.
+* Regularly auditing browser extensions enhances **security hygiene** and prevents unauthorized data tracking.
+* Maintaining only verified and essential extensions ensures a **secure, faster browsing environment**.
+
